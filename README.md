@@ -1,6 +1,9 @@
 ![sampy banner](https://github.com/user-attachments/assets/090fddf4-66e7-4659-b24d-83f8ee3f0512)
 <h1 align=center>Pushing the limits of Python</h2>
-<p align=center>Sam.py is a Python project where anyone can come and add their own Python scripts.</p>
+<p align=center>Sam.py is a Python project where anyone can come and add their own Python scripts. The only package needed is <a href=https://click.palletsprojects.com/en/stable/quickstart/#install target="_blank">CLICK</a>.</p>
+
+<h2 align=center>How do I install Sampyhub?</h2>
+<p align=center>Visit the <a href=https://github.com/sam51210/sam.py/releases >releases page</a> and follow the instructions.</p>
 
 <h2 align=center>How does it work?</h2>
 
