@@ -1,4 +1,5 @@
 import time
+import sys
 
 # Sam.py BootSequence
 class bcolors:
@@ -11,23 +12,13 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
-
-print("__        __   _                            _        ")
-print("\ \      / /__| | ___ ___  _ __ ___   ___  | |_ ___  ")
-print(" \ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \ | __/ _ \ ")
-print("  \ V  V /  __/ | (_| (_) | | | | | |  __/ | || (_) |")
-print(" __\_/\_/ \___|_|\___\___/|_| |_| |_|\___|  \__\___/ ")
+print(" ____                                                ")
 print("/ ___|  __ _ _ __ ___    _ __  _   _                 ")
 print("\___ \ / _` | '_ ` _ \  | '_ \| | | |                ")
 print(" ___) | (_| | | | | | |_| |_) | |_| |                ")
 print("|____/ \__,_|_| |_| |_(_) .__/ \__, |                ")
 print("                        |_|    |___/                 ")
 print("")
-print("Sam.py Status:")
-print(f"{bcolors.WARNING}WARN (Sam.py Hub not installed){bcolors.ENDC}")
-print("")
-print("Script selected:")
-print(f"{bcolors.BOLD}name.py{bcolors.ENDC}")
 print("")
    
 
@@ -71,18 +62,20 @@ if truth.upper() == 'Y':
 
     print("") 
 
-    print("A magician never reveals their secrets...") 
+    print(f"{bcolors.OKGREEN}A magician never reveals their secrets{bcolors.ENDC}")
 
-    time.sleep(3600) 
+    time.sleep(3) 
+    sys.exit()
 
 else: 
 
     print("") 
 
-    print("I smell a liar...") 
+    print(f"{bcolors.FAIL}I smell a liar...{bcolors.ENDC}")
 
     time.sleep(1) 
 
     print("Let's try again...") 
 
-    time.sleep(3600) 
+    time.sleep(3) 
+    sys.exit()
